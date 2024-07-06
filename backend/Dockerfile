@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:latest-slim
+FROM python:3.9-slim
 
 #install poetry
 RUN pip install poetry
