@@ -16,8 +16,8 @@ To install Poetry, follow these steps:
 curl -sSL https://install.python-poetry.org | python3 -
 ```
 
-Add Poetry to your PATH (if not automatically added):
 
+Add Poetry to your PATH (if not automatically added):
 ## Setup Instructions
 
 1. **Navigate to the backend directory**:
