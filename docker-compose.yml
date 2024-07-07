@@ -52,8 +52,8 @@ services:
     restart: unless-stopped
     ports:
       - '8090:81'
-      - '80:80'
       - '443:443'
     volumes:
       - ./proxy/data:/data
+      - ./conf_files:/data/nginx/proxy_host
       - ./proxy/letsencrypt:/etc/letsencrypt
